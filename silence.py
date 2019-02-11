@@ -1,7 +1,8 @@
 class Hedgehog(object):
     # Create a constructure for the class
     def __init__(self, number):
-        return None
+        self.next = None
+        self.number = number
 
 class HedgehogList(object):
     # Create a constructure for the class

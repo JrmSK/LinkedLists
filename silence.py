@@ -19,7 +19,10 @@ class HedgehogList(object):
         return None
 
     def is_empty(self):
-        return None
+        if len(self) != 0:
+            return True
+        else:
+            return None
 
     def find_max(self, item=None):
         return None
